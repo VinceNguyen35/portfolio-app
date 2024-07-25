@@ -1,6 +1,11 @@
 const Header = () => {
     return (
-        <h1>Header Here</h1>
+        <header>
+            <h1>Hi, I'm Vince Nguyen</h1>
+            <div className="profile-image">
+                <img src="Linkedin_Picture.jpg" alt="picture of me, Vince Nguyen" />
+            </div>
+        </header>
     );
 }
  
