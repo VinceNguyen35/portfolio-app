@@ -35,6 +35,8 @@ header {
             font-size: 100px;
             text-align: center;
             margin: auto;
+            overflow: hidden;
+            white-space: nowrap;
         }
 
         .profile-image {
