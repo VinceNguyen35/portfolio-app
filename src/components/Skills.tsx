@@ -9,7 +9,8 @@ const Skills = () => {
 
     const frameworks: string[] = [
         "React",
-        "Node",
+        "Redux",
+        "Node.js",
         "Jest",
         "Sass",
         "MySQL",
@@ -25,31 +26,56 @@ const Skills = () => {
     ];
 
     return (
-        <section>
+        <section className="skills">
             <h2>Tech Stack</h2>
             <h3>Technical Languages</h3>
-            <div className="languages">
-                {
-                    languages.map((item) => (
-                        <span>{item} </span>
-                    ))
-                }
-            </div>
+                <div className="stack-container">
+                    {
+                        languages.map((language, key) => (
+                            <div className="skills-container">
+                                <div key={key} className="skills-image-container">
+                                    <img src={`./${language}.svg`} alt={language} />
+                                </div>
+                                <div>
+                                    {language}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
             <h3>Frameworks</h3>
+                <div className="stack-container">
+                    {
+                        frameworks.map((framework, key) => (
+                            <div className="skills-container">
+                                <div key={key} className="skills-image-container">
+                                    <img src={`./${framework}.svg`} alt={framework} />
+                                </div>
+                                <div>
+                                    {framework}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
             <div className="frameworks">
-                {
-                    frameworks.map((item) => (
-                        <span>{item} </span>
-                    ))
-                }
             </div>
             <h3>Extra Technical Skills</h3>
+                <div className="stack-container">
+                    {
+                        other.map((skill, key) => (
+                            <div className="skills-container">
+                                <div key={key} className="skills-image-container">
+                                    <img src={`./${skill}.svg`} alt={skill} />
+                                </div>
+                                <div>
+                                    {skill}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
             <div className="other">
-                {
-                    other.map((item) => (
-                        <span>{item} </span>
-                    ))
-                }
             </div>
         </section>
     );
