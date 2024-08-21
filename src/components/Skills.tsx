@@ -26,24 +26,28 @@ const Skills = () => {
 
     return (
         <section>
+            <h2>Tech Stack</h2>
+            <h3>Technical Languages</h3>
             <div className="languages">
                 {
                     languages.map((item) => (
-                        <h3>{item}</h3>
+                        <h4>{item}</h4>
                     ))
                 }
             </div>
+            <h3>Frameworks</h3>
             <div className="frameworks">
                 {
                     frameworks.map((item) => (
-                        <h3>{item}</h3>
+                        <h4>{item}</h4>
                     ))
                 }
             </div>
+            <h3>Extra Technical Skills</h3>
             <div className="other">
                 {
                     other.map((item) => (
-                        <h3>{item}</h3>
+                        <h4>{item}</h4>
                     ))
                 }
             </div>
