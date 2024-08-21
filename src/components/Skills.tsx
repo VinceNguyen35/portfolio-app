@@ -31,7 +31,7 @@ const Skills = () => {
             <div className="languages">
                 {
                     languages.map((item) => (
-                        <h4>{item}</h4>
+                        <span>{item} </span>
                     ))
                 }
             </div>
@@ -39,7 +39,7 @@ const Skills = () => {
             <div className="frameworks">
                 {
                     frameworks.map((item) => (
-                        <h4>{item}</h4>
+                        <span>{item} </span>
                     ))
                 }
             </div>
@@ -47,7 +47,7 @@ const Skills = () => {
             <div className="other">
                 {
                     other.map((item) => (
-                        <h4>{item}</h4>
+                        <span>{item} </span>
                     ))
                 }
             </div>
