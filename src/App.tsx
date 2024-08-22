@@ -1,5 +1,6 @@
 // Component Imports
 import Header from "./components/Header";
+import Landing from "./components/Landing";
 import Intro from "./components/Intro";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <Landing />
       <Intro />
       <Education />
       <Skills />

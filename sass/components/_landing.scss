@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.landing {
+    background-color: darkgray;
+    padding: 20px 0;
+    margin: 0 -30px;
+}
+
+.profile-image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 400px;
+    height: 533px;
+    margin-top: -150px;
+    margin-left: -100px;
+}

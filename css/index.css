@@ -5,15 +5,22 @@ body {
   padding: 0 20px;
 }
 
+h2 {
+  font-size: 30px;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
   margin: 10px;
 }
 
-h2 {
-  font-size: 30px;
-  padding-top: 50px;
+.landing {
+  background-color: darkgray;
+  padding: 20px 0;
+  margin: 0 -30px;
 }
 
 .profile-image-container {
