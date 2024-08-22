@@ -1,10 +1,6 @@
 .skills {
     img {
-        width: 100px;
-        height: 100px;
-        padding: 25px;
-        margin: auto;
-        display: block;
+        @include icon;
     }
 }
 
@@ -19,11 +15,5 @@
 }
 
 .skills-image-container {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    border: 1px solid transparent;
-    border-radius: 100%;
-    margin: 10px auto;
-    background-color: white;
+    @include icon-container;
 }

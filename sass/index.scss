@@ -1,6 +1,7 @@
 // variables & functions
 @import "abstracts/variables";
 @import "abstracts/functions";
+@import "abstracts/mixins";
 
 // base
 @import "base/base";
@@ -13,4 +14,5 @@
 // components
 @import "components/header";
 @import "components/intro";
+@import "components/education";
 @import "components/skills";

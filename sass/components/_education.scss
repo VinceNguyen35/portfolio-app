@@ -1,0 +1,17 @@
+.education {
+    h3 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.education-container {
+    @include icon-container;
+
+    img {
+        @include icon;
+    }
+}
